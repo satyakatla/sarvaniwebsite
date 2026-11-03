@@ -35,18 +35,31 @@ header {
 .logo {
     display: flex;
     align-items: center;
+    gap: 12px;
 }
 
-.logo a {
+.logo-icon {
+    font-size: 2rem;
+    color: #0284c7;
+    font-weight: bold;
+}
+
+.logo-text {
     display: flex;
-    align-items: center;
-    text-decoration: none;
+    flex-direction: column;
 }
 
-.logo-img {
-    height: 56px;
-    width: auto;
-    display: block;
+.brand {
+    font-weight: 700;
+    font-size: 1.1rem;
+    letter-spacing: 0.05em;
+    color: #1e3a8a;
+}
+
+.tagline {
+    font-size: 0.75rem;
+    color: #64748b;
+    font-style: italic;
 }
 
 nav {
